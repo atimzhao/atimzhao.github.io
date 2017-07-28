@@ -389,13 +389,6 @@ body {
   }
 }
 
-#jello {
-  animation-name: jello;
-  transform-origin: center;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-}
-
 /*
 confetti cannon
 */
