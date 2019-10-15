@@ -50,7 +50,9 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('set', {'user_id': 'testuser9879'});
+        gtag('config', 'GA_MEASUREMENT_ID', {
+  'user_id': 'testuser9879'
+});
       gtag('config', 'UA-150030754-1');
     </script>
 
